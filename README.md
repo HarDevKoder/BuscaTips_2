@@ -1,3 +1,3 @@
-# 🦈🦈 TITULO 🦈🦈
+# 🦈🦈 BUSCA TIPS 2 🦈🦈
 ---
-Descripcion
+Buscador de Tips Informáticos Versión 2.0
