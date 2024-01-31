@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'miFuente';
-  src: url('../fuentes/openSans.ttf');
+  font-family: "miFuente";
+  src: url("../fuentes/openSans.ttf");
 }
 
-html{
+html {
   font-family: miFuente;
 }
 
-body{
-  background: #E0E8F8;
+body {
+  background: #e0e8f8;
   font-size: 10px;
 }
 
-.contenedorGeneral{
+.contenedorGeneral {
   width: 50%;
   height: 100vh;
   margin: auto;
@@ -21,36 +21,53 @@ body{
   flex-direction: column;
 }
 
-.contenedorCabecera{
+.contenedorCabecera {
   background: yellow;
   height: 20%;
-  display:flex; 
+  display: flex;
 }
 
-.contenedorLogo{
+.contenedorLogo {
   width: 40%;
-  background:silver;
+  background: silver;
 }
 
-.contenedorControles{
-  width:60%;
-  background:green;
+.contenedorControles {
+  width: 60%;
+  background: green;
   display: flex;
   flex-direction: column;
 }
 
-.contenedorSelect{
+.contenedorSelect {
   height: 50%;
   background: greenyellow;
 }
 
-.contenedorBusqueda{
+.contenedorBusqueda {
   height: 50%;
   background: orchid;
 }
 
-.contenedorResultados{
+.contenedorResultados {
   background: cyan;
   height: 80%;
+}
 
+/* ------------------------------------- */
+/* ESTILOS PARA DISPOSITIVOS MOVILES
+/* ------------------------------------- */
+/* Tablet
+/* ------------------------------------- */
+@media (min-width: 600px) {
+}
+
+/* ------------------------------------- */
+/* Celular
+/* ------------------------------------- */
+@media (min-width: 300px) {
+  .contenedorGeneral {
+    width: 95%;
+    margin: 5px auto;
+  }
 }
