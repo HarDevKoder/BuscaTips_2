@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "miFuente";
   src: url("../fuentes/openSans.ttf");
@@ -5,11 +11,12 @@
 
 html {
   font-family: miFuente;
+  font-size: 100%;
 }
 
 body {
   background: #e0e8f8;
-  font-size: 10px;
+  font-size: 100%;
 }
 
 .contenedorGeneral {
