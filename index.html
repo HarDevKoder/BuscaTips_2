@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Busca Tips 2</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=1">
   <link rel="shortcut icon" href="imagenes/Favicons/brackets.png" type="image/x-icon">
   <link rel="manifest" href="manifest.json">
 </head>
@@ -14,19 +14,32 @@
 
   <div class="contenedorGeneral">
 
-    <div class="contenedorCabecera">
-
+    <fieldset>
+      <legend>HarDevTips 2.0</legend>
       <div class="contenedorLogo"></div>
       <div class="contenedorControles">
-
-        <div class="contenedorSelect"></div>
-        <div class="contenedorBusqueda"></div>
-
+        <div class="controles">
+          <select class="selectorCategorias" id="">
+            <option value="">Seleccionar</option>
+            <option value="">Sistemas</option>
+            <option value="">Algoritmos</option>
+            <option value="">Código Reutilizable </option>
+            <option value="">Git</option>
+            <option value="">Css</option>
+            <option value="">JavaScript</option>
+          </select>
+        </div>
+        <div class="controles">
+          <div class="contenedorAuxiliarBusqueda">
+            <span class="lupa">&#128269;</span>
+            <input type="search" class="inputBusqueda" id="">
+          </div>
+        </div>
       </div>
+    </fieldset>
 
+    <div class="contenedorResultados">
     </div>
-
-    <div class="contenedorResultados"></div>
 
   </div>
 
